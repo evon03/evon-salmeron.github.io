@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Special+Elite&display=swap');
+
+body {
+    font-family: "Special Elite", serif;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    padding: 3em 0;
+    background-color: #402d50;
+}
+header img {
+    width: 15%;
+    padding: 0 0 2em 0;
+}
+
+h1 {
+    padding: 2em 0 0 0;
+}
