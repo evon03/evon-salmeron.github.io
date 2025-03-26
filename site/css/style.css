@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+    background-color: #c095a6;
+}
+
+header {
+    background-color: #22171e;
+    padding: 25px 0px 25px 0px;
+}
+
+a {
+    color: #c095a6;
+    padding: 0px 10px 0px 50px;
+    font-family: "Almendra Display", serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: "Almendra Display", serif;
+    color: #4f2d3e;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    color: #39222f;
+    font-weight: bolder;
+    padding: 25px 0px 0px 0px;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    color: #39222f;
+}
+
+p,
+li {
+    font-family: "Alice", serif;
+}
+
+img {
+    padding: 50px 0px 0px 0px;
+}
+
+.hyperlink a {
+    color: #4f2d3e;
+    font-family: "Alice", serif;
+    font-size: 15px;
+    padding: 0px 0px 0px 10px;
+}
