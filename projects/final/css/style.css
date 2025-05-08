@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+header {
+    text-align: center;
+    background-image: url('../img/studyingstock.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.centered-text { 
+    padding: 50px 80px 50px 80px;
+}
+
+h1 {
+    font-family: "Tagesschrift", system-ui;
+    font-size: 5em;
+    color: #b13fc4;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-family: "Lora", serif;
+    font-size: 1em;
+    color: #e5d3f3;
+    background-color: #b13fc4;
+    padding-left: 25px;
+}
+
+.container {
+    padding-top: 25px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+img {
+    width: 50%;
+}
+
+.image {
+    padding-bottom: 10px;
+}
+
+@media (max-width:768px) {
+    header img {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}

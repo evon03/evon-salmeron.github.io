@@ -6,6 +6,7 @@
 header {
     position: relative;
     text-align: center;
+   background-image: url('../img/');
 }
 
 header img {
