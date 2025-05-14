@@ -38,15 +38,6 @@ h2 {
     padding-top: 25px;
 }
 
-.center-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.center {
-    width: 50%;
-}
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -79,8 +70,4 @@ img {
     h2 {
         font-size: 1em;
     }
-
-    .center [
-        width: 50%;
-    ]
 }
