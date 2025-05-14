@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 
@@ -15,12 +15,12 @@ header img {
     width: 100%;
 }
 
-.centered-text { 
+.centered-text {
     padding: 50px 80px 50px 80px;
 }
 
 h1 {
-    font-family: "Tagesschrift", system-ui;
+    font-family: "Lora", serif;
     font-size: 5em;
     color: #b13fc4;
     padding-bottom: 50px;
@@ -38,6 +38,16 @@ h2 {
     padding-top: 25px;
 }
 
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 50%;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: aliceblue;
@@ -49,7 +59,13 @@ img {
 
 .image {
     padding-bottom: 10px;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 75%;
+    font-size: 0.75em;
 }
+
 
 @media (max-width:768px) {
     header img {
@@ -63,4 +79,8 @@ img {
     h2 {
         font-size: 1em;
     }
+
+    .center [
+        width: 50%;
+    ]
 }
